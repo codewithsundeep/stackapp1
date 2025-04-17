@@ -5,7 +5,8 @@
   "scripts": {
     "build": "next build",
 "preview": "npm run pages:build && wrangler pages dev",
-"deploy": "npm run pages:build && wrangler pages deploy",
+"deploy": "wrangler pages deploy .vercel/output/static --project-name=stk"
+,
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
