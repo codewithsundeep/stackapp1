@@ -2,7 +2,6 @@ import { Pool } from "pg";
 import Ans from "../../components/ans";
 import stripHtml from "string-strip-html";
 import { redirect } from "next/navigation";
- export const runtime = 'edge';
 // Setup Database Connection
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,

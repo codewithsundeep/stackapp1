@@ -10,7 +10,6 @@ export function generateMetadata({params}){
         description:params.tag+ " find here code examples, projects, interview questions, cheatsheet, and problem solution you have needed. Many source codes of "+params.query+" are available for free here."
     }
 }
- export const runtime = 'edge';
 export default function tag({params}){
     console.log(params);
     return(

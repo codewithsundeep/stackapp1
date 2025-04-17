@@ -6,7 +6,6 @@ import Ad2 from "@/app/components/ad2"
 import Ad3 from "@/app/components/ad3"
 import Ad4 from "@/app/components/ad4"
 import { redirect } from 'next/navigation'
- export const runtime = 'edge';
 export function generateMetadata({params}){
     return{
         title:`${params.tag} Examples and Free Source Code - EXAMPLE-A`,

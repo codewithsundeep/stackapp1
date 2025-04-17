@@ -7,7 +7,7 @@ const pool = new Pool({
     ? { ca: process.env.ca, rejectUnauthorized: false }
     : { rejectUnauthorized: false },
 });
- export const runtime = 'edge';
+
 export async function GET(request, { params }) {
   try {
     const page = parseInt(params.id, 10) || 1; // Default to page 1
