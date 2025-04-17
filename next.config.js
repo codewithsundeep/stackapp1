@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // experimental: {
-    //     serverActions: true,
-    //   }
+  output: 'export',
+ experimental: {
+    runtime: 'edge',
+     serverActions: true,
+   },
+    eslint: {
+    ignoreDuringBuilds: true,
+  },
 }
 
 module.exports = nextConfig
