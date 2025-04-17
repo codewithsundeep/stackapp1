@@ -2,10 +2,9 @@
   "name": "stackapp1",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "npm@10.8.0",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node_modules/.bin/next-on-pages",
+    "build": "next build && next-on-pages",
     "deploy": "wrangler pages deploy .vercel/output/static --project-name=your-project",
     "start": "next start",
     "lint": "next lint",
