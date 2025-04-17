@@ -7,7 +7,7 @@ import Ad1 from "../components/ad1"
 import Ad2 from "../components/ad2"
 import Ad3 from "../components/ad3"
 import Ad4 from "../components/ad4"
-
+ export const runtime = 'edge';
 export function generateMetadata({params}){
     return{
         title:`${params.tag} Examples and Free Source Code - EXAMPLE-A`,
