@@ -6,7 +6,7 @@
 
 "scripts": {
   "dev": "next dev",
-  "build": "next-on-pages",
+    "build": "next build && next-on-pages",
   "deploy": "wrangler pages deploy .vercel/output/static --project-name=your-project",
   "start": "next start",
   "lint": "next lint",
