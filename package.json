@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "pages:build": "npx @cloudflare/next-on-pages",
+"preview": "npm run pages:build && wrangler pages dev",
+"deploy": "npm run pages:build && wrangler pages deploy",
     "dev": "next dev",
-    "build": "next build && next-on-pages",
-    "deploy": "wrangler pages deploy .vercel/output/static --project-name=your-project",
     "start": "next start",
     "lint": "next lint",
     "postbuild": "purgecss --css src/app/mdb.min.css --content src/app/*.js src/app/*/*.js --output src/app/mdb.css"
