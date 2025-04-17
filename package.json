@@ -2,16 +2,15 @@
   "name": "stackapp1",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "npm@10.8.3",
-
-"scripts": {
-  "dev": "next dev",
-    "build": "next build && next-on-pages",
-  "deploy": "wrangler pages deploy .vercel/output/static --project-name=your-project",
-  "start": "next start",
-  "lint": "next lint",
-  "postbuild": "purgecss --css src/app/mdb.min.css --content src/app/*.js src/app/*/*.js --output src/app/mdb.css"
-},
+  "packageManager": "npm@10.8.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && node_modules/.bin/next-on-pages",
+    "deploy": "wrangler pages deploy .vercel/output/static --project-name=your-project",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "purgecss --css src/app/mdb.min.css --content src/app/*.js src/app/*/*.js --output src/app/mdb.css"
+  },
   "dependencies": {
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.17",
