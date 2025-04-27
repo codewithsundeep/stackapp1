@@ -1,0 +1,16 @@
+.sticky-ads {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 5px 0;
+    z-index: 9999;
+  }
+  
+  .ad-container {
+    margin: 0 10px;
+  }
+  

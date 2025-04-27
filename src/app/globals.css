@@ -1,0 +1,91 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/base16/darcula.min.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Target the entire document for custom scrollbars */
+* {
+  scrollbar-width: thin;           /* For Firefox */
+  scrollbar-color: #0fd31f #570ce2;
+     /* For Firefox */
+  
+}
+
+/* Webkit browsers (Chrome, Safari, Edge) */
+*::-webkit-scrollbar {
+  width: 3px;       /* Width of the scrollbar */
+  height: 3px;      /* Height of the scrollbar (for horizontal scrollbars) */
+}
+::scrollbar{
+  width: 3px;       /* Width of the scrollbar */
+  height: 3px; 
+}
+*::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #701cb5;  /* Color of the scrollbar thumb */
+  border-radius: 10px;     /* Roundness of the scrollbar thumb */
+  border: 2px solid #f1f1f1; /* Padding around the thumb */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb when hovered */
+  border-radius: 20%;
+}
+body { overflow-x: hidden; }
+#cardo{
+    width: 45% !important;
+    overflow: hidden;
+}
+body {
+  background-color: #ffffff !important; /* White background */
+  color: #333333 !important; /* Dark text color */
+}
+footer * {
+  background-color: #ffffff !important; /* White background */
+  color: #333333 !important; /* Dark text color */
+}
+.ftr1 * {
+  background-color: #ffffff !important; /* White background */
+  color: #333333 !important; /* Dark text color */
+}
+
+.progressMainWrapper {
+    background-color: transparent;
+    height: 8px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+  }
+  #ftlk{
+    color: blue !important;
+    opacity: 500 !important;
+    background-color: #ffffff !important;
+  }
+  .progressMainStyle {
+    height: 8px;
+    background-color: #00cc83;
+    width: 15%;
+  }
+  code{
+    color:rgb(35, 23, 252) !important;
+  }
+  .text-reset{
+    color: black !important;
+  }
+  #answercontent {
+    background-color: #ffffff !important; /* White background */
+    color: #333333 !important; /* Dark text color */
+  }
+  
+@media only screen and (max-width: 600px) {
+    #cardo{
+        width: 95% !important;
+    }
+  }
+  

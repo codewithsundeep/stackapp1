@@ -1,0 +1,36 @@
+{
+  "name": "stackapp1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "purgecss --css src/app/mdb.min.css --content src/app/*.js src/app/*/*.js --output src/app/mdb.css"
+  },
+  "dependencies": {
+    "@opennextjs/cloudflare": "^1.0.0-beta.3",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.17",
+    "formik": "^2.4.6",
+    "i": "^0.3.7",
+    "next": "13.4",
+    "next-nprogress-bar": "^2.1.2",
+    "pdfjs-dist": "^4.2.67",
+    "pg": "^8.13.1",
+    "purgecss": "^6.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-pdf": "^7.6.0",
+    "sharethis-reactjs": "^1.6.0",
+    "string-strip-html": "^4.3.9",
+    "styled-components": "^6.1.6",
+    "sweetalert": "^2.1.2",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3"
+  }
+}

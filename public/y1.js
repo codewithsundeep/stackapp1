@@ -1,0 +1,1 @@
+window.yaContextCb=window.yaContextCb||[]
