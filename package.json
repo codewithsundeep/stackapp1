@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build": "npx opennextjs-cloudflare build",
+    "deploy": "npx opennextjs-cloudflare deploy",
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
