@@ -6,7 +6,8 @@
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "purgecss --css src/app/mdb.min.css --content src/app/*.js src/app/*/*.js --output src/app/mdb.css"
+    "postbuild": "purgecss --css src/app/mdb.min.css --content src/app/*.js src/app/*/*.js --output src/app/mdb.css",
+    "build": "next build"
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.0.0-beta.3",

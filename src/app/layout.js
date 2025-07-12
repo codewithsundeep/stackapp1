@@ -7,7 +7,7 @@ export const metadata = {
   title: 'EXAMPLE-A',
   description: "EXAMPLE-A is a dynamic web application crafted with Next.js, a React-based framework, designed to provide users with efficient solutions to coding challenges whenever needed. Leveraging the power of Next.js, this web app offers a seamless and responsive experience for users seeking instant and effective code solutions.",
 }
-
+//
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
