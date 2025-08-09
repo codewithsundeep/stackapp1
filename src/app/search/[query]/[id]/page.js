@@ -3,7 +3,6 @@ import Nav from "../../../components/nav"
 import Footer1 from "../../../components/footer1"
 import Load from "../../../components/loader"
 import Script from 'next/script'
-// export const runtime = "edge";
 export function generateMetadata({params}){
     console.log(params.query);
     return{

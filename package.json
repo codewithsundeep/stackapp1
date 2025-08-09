@@ -4,21 +4,20 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "start": "next start",
+    "build": "next dev --hostname 0.0.0.0",
+    "start": "next start --hostname 0.0.0.0 --port 3000",
     "lint": "next lint",
-    "postbuild": "purgecss --css src/app/mdb.min.css --content src/app/*.js src/app/*/*.js --output src/app/mdb.css",
-    "build": "next build"
+    "postbuild": "purgecss --css src/app/mdb.min.css --content src/app/*.js src/app/*/*.js --output src/app/mdb.css"
   },
   "dependencies": {
-    "@opennextjs/cloudflare": "^1.0.0-beta.3",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.17",
     "formik": "^2.4.6",
     "i": "^0.3.7",
     "next": "13.4",
     "next-nprogress-bar": "^2.1.2",
+    "npm": "^10.8.0",
     "pdfjs-dist": "^4.2.67",
-    "pg": "^8.13.1",
     "purgecss": "^6.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
