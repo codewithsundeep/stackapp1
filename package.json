@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next dev --hostname 0.0.0.0",
-    "start": "next start --hostname 0.0.0.0 --port 3000",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0 --port 8080",
     "lint": "next lint",
     "postbuild": "purgecss --css src/app/mdb.min.css --content src/app/*.js src/app/*/*.js --output src/app/mdb.css"
   },

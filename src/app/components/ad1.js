@@ -12,7 +12,7 @@ useEffect(() => {
 		sp.type="text/javascript";
 		sp.innerHTML=`
 	 atOptions = {
-		'key' : '6d74d23d628609fe44464fb80acc6f22',
+		'key' : '286dc2d72d046f16b7c43cfa6ee77ccc',
 		'format' : 'iframe',
 		'height' : 250,
 		'width' : 300,
@@ -20,7 +20,7 @@ useEffect(() => {
 	};
 		`;
 	let sp1 = document.createElement('script')
-	sp1.src="//collectbladders.com/6d74d23d628609fe44464fb80acc6f22/invoke.js";
+	sp1.src="//defiantexemplifytheme.com/286dc2d72d046f16b7c43cfa6ee77ccc/invoke.js";
 	sp.onload=()=>{
 	console.log("loaded1");
 	}
@@ -37,7 +37,7 @@ useEffect(() => {
 	};
 	`;
 	let ppc1 = document.createElement("script")
-	ppc1.src = "//collectbladders.com/7a0aed8f84ed52875aca496dfed51337/invoke.js";
+	ppc1.src = "//defiantexemplifytheme.com/7a0aed8f84ed52875aca496dfed51337/invoke.js";
 	ppc1.onload=()=>{
 	let ppp = document.createElement("script")
 	ppp.id="a3"
@@ -51,7 +51,7 @@ useEffect(() => {
 	};
 	`;
 	let ppp1 = document.createElement("script")
-	ppp1.src = "//collectbladders.com/b1ca5f8fbafd87df7f466d1df734cfcc/invoke.js";
+	ppp1.src = "//defiantexemplifytheme.com/b1ca5f8fbafd87df7f466d1df734cfcc/invoke.js";
 	ppp1.onload=()=>{
 	let ppk = document.createElement("script")
 	ppk.id="a4"
@@ -65,7 +65,7 @@ useEffect(() => {
 	};
 	`;
 	let ppk1 = document.createElement("script")
-	ppk1.src = "//collectbladders.com/6d298f91c4654d7b180a646a7fa5836f/invoke.js";
+	ppk1.src = "//defiantexemplifytheme.com/6d298f91c4654d7b180a646a7fa5836f/invoke.js";
 	ppk1.onload=()=>{
 	console.log("loaded");
 	}

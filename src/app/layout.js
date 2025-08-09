@@ -14,9 +14,6 @@ export default function RootLayout({ children }) {
         <Indicate/>
         {children}
         <Script src="/custom.js" id="cstmjs"></Script>
-{/* <Script src="/y1.js"></Script> */}
-{/* <Script src="https://yandex.ru/ads/system/context.js" async></Script> */}
-{/* <Script src="/y2.js"></Script> */}
         </body>
     </html>
   )
