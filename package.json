@@ -26,7 +26,8 @@
     "string-strip-html": "^4.3.9",
     "styled-components": "^6.1.6",
     "sweetalert": "^2.1.2",
-    "yup": "^1.4.0"
+    "yup": "^1.4.0",
+    "pg": "^8.11.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
@@ -34,5 +35,6 @@
     "tailwindcss": "^3.3.3"
   }
 }
+
 
 
