@@ -3,6 +3,7 @@ import Nav from "../components/nav"
 import Footer1 from "../components/footer1"
 import Load from "../components/loader"
 import Script from 'next/script'
+//hello changes
 export function generateMetadata({params}){
     return{
         title:`${params.tag} Examples and Free Source Code - EXAMPLE-A`,
@@ -18,4 +19,5 @@ export default function tag(params){
         <Footer1/>
         </>
     )
+
 }
