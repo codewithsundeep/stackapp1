@@ -12,7 +12,7 @@ try{
     <div>
       <Nav/>
       <Load/>
-    <h1>Hello!! Chadghfghfdnges!ok</h1>
+    
       <Card name="home" id={1}/>
       {/* <Adlinks/> */}
       <Footer1/>
@@ -22,6 +22,7 @@ try{
   redirect("/")
 }
 }
+
 
 
 
