@@ -97,10 +97,10 @@ async function gettl(id){
 }
 async function manageAnswer(id){
     try{
-        let ans = await fetch(`https://api.stackexchange.com/2.3/answers/${id}/?site=stackoverflow&filter=withbody&key=${process.env.KEY}`);
+        let ans = await fetch(`https://api.stackexchange.com/2.3/answers/${id}/?site=stackoverflow&filter=withbody&key=rl_faxSu5ocpSJMEM4ynvZwz6JQ5`);
         let resans = await ans.json();
         let qid = resans.items[0].question_id;
-        let qsn = await fetch(`https://api.stackexchange.com/2.3/questions/${qid}/?site=stackoverflow&filter=withbody&key=${process.env.KEY}`);
+        let qsn = await fetch(`https://api.stackexchange.com/2.3/questions/${qid}/?site=stackoverflow&filter=withbody&key=rl_faxSu5ocpSJMEM4ynvZwz6JQ5`);
         let resqsn = await qsn.json();
         aid = resans.items[0].answer_id
         m = resans.items[0].last_edit_date
@@ -116,4 +116,5 @@ async function manageAnswer(id){
     }catch(err){
         console.log("error");
     }
+
 }
