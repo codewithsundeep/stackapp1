@@ -67,14 +67,14 @@ async function qsn(who,tag,page=1) {
         let res;
       if(who=='tag'){
         req = await fetch(
-            `https://api.stackexchange.com/2.3/search/advanced?tagged=${tag}&accepted=True&site=stackoverflow&filter=withbody&key=${process.env.KEY}&page=${page}`
+            `https://api.stackexchange.com/2.3/search/advanced?tagged=${tag}&accepted=True&site=stackoverflow&filter=withbody&key=rl_faxSu5ocpSJMEM4ynvZwz6JQ5&page=${page}`
           );
        res = await req.json();
       //  console.log(res);
        return res.items;
       }else{
         req = await fetch(
-            "https://api.stackexchange.com/2.3/search/advanced?tagged=html%20;css;javascript&accepted=True&site=stackoverflow&pagesize=10&filter=withbody&key="+process.env.KEY
+            "https://api.stackexchange.com/2.3/search/advanced?tagged=html%20;css;javascript&accepted=True&site=stackoverflow&pagesize=10&filter=withbody&key=rl_faxSu5ocpSJMEM4ynvZwz6JQ5"
           );
       res = await req.json();
       return res.items;
@@ -88,7 +88,7 @@ async function sqsn(who,query,page=1) {
     try {
         let req;
         let res;
-        let url = `https://api.stackexchange.com/2.3/search?intitle=${query}&accepted=True&site=stackoverflow&is_answered=True&filter=withbody&key=${process.env.KEY}&page=${page}`;
+        let url = `https://api.stackexchange.com/2.3/search?intitle=${query}&accepted=True&site=stackoverflow&is_answered=True&filter=withbody&key=rl_faxSu5ocpSJMEM4ynvZwz6JQ5&page=${page}`;
         // console.log(url);
         req = await fetch(
             url
@@ -99,4 +99,5 @@ async function sqsn(who,query,page=1) {
     } catch (err) {
       return [{title:"Error Not Found!",tags:['error']}];
     }
+
   }
